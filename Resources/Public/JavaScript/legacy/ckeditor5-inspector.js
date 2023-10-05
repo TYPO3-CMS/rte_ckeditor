@@ -10,4 +10,4 @@
  *
  * The TYPO3 project - inspiring people to share!
  */
-import{Plugin}from"@ckeditor/ckeditor5-core";import Whitespace from"@typo3/rte-ckeditor/plugin/whitespace.js";class SoftHyphen extends Plugin{init(){console.warn("The TYPO3 CKEditor5 SoftHyphen plugin is deprecated and will be removed with v13. Please use the Whitespace plugin instead.")}}SoftHyphen.pluginName="SoftHyphen",SoftHyphen.requires=[Whitespace];export default SoftHyphen;
+export{default as CKEditorInspector}from"@ckeditor/ckeditor5-inspector";console.warn('The module "@typo3/ckeditor5-inspector.js" has been marked as deprecated. Please use "@ckeditor/ckeditor5-inspector" instead.');
