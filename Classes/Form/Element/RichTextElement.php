@@ -39,17 +39,6 @@ use TYPO3\CMS\RteCKEditor\Form\Element\Event\BeforePrepareConfigurationForEditor
 class RichTextElement extends AbstractFormElement
 {
     /**
-     * Default field information enabled for this element.
-     *
-     * @var array
-     */
-    protected $defaultFieldInformation = [
-        'tcaDescription' => [
-            'renderType' => 'tcaDescription',
-        ],
-    ];
-
-    /**
      * Default field wizards enabled for this element.
      *
      * @var array
